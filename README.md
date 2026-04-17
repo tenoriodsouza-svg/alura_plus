@@ -39,7 +39,7 @@ Este projeto teve como principais objetivos:
 
 ## 📸 Preview
 
-![Preview do projeto](COLE_AQUI_PRINT)
+![Preview do projeto](preview.png)
 
 ---
 
