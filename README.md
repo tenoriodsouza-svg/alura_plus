@@ -33,7 +33,7 @@ Este projeto teve como principais objetivos:
 
 ## 📂 Acesse o projeto
 
-🔗 [Visualizar projeto online]([COLE_AQUI_SEU_LINK](https://tenoriodsouza-svg.github.io/alura_plus/)
+🔗 [Visualizar projeto online]https://tenoriodsouza-svg.github.io/alura_plus/
 
 ---
 
