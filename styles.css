@@ -151,6 +151,88 @@ body {
     color: var(--botao-azul);
 }
 
+/* Responsividade */
+
+/* Mobile (até 767px) */
+@media (max-width: 767px) {
+    .container {
+        grid-template-columns: 1fr; /* Uma coluna */
+        height: auto; /* Altura automática */
+        padding: 1em;
+    }
+
+    .container__caixa {
+        margin: 0 1em;
+    }
+
+    .container__titulo {
+        font-size: 24px; /* Tamanho menor */
+    }
+
+    .container__imagem {
+        width: 100%; /* Imagem ocupa toda largura */
+        margin: 1em 0;
+    }
+
+    .secundario {
+        margin: 0 1em;
+        flex-direction: column; /* Empilhar verticalmente */
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px; /* Menor */
+    }
+
+    .descricao__texto {
+        font-size: 14px;
+    }
+
+    .dispositivos__titulo,
+    .lista__item {
+        font-size: 24px;
+    }
+
+    .rodape {
+        margin: 0 1em;
+    }
+}
+
+/* Tablet (768px a 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        grid-template-columns: 1fr; /* Uma coluna para tablets também, se necessário */
+        height: auto;
+    }
+
+    .container__caixa {
+        margin: 0 2em;
+    }
+
+    .secundario {
+        margin: 0 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 36px;
+    }
+
+    .dispositivos__titulo {
+        font-size: 36px;
+    }
+
+    .lista__item {
+        font-size: 24px;
+    }
+}
+
+/* Desktop (1024px e acima) - já está otimizado */
+
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
